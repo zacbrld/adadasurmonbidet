@@ -34,19 +34,40 @@ Test gif bis bis x3
     <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" width="100%" height="900" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
-<div class="tabs">
-  <button class="tab-button active" data-target="plot-men">Hommes</button>
-  <button class="tab-button" data-target="plot-women">Femmes</button>
+TESSST DOUBLETTE 
+
+<div class="tab-wrapper">
+  <div class="tabs">
+    <button class="tab-button active" data-target="plot-men-1">Hommes</button>
+    <button class="tab-button" data-target="plot-women-1">Femmes</button>
+  </div>
+
+  <div class="tab-content">
+    <div id="plot-men-1" class="plot-container active">
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
+    </div>
+    <div id="plot-women-1" class="plot-container">
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
+    </div>
+  </div>
 </div>
 
-<div class="tab-content">
-  <div id="plot-men" class="plot-container active">
-    <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
+<div class="tab-wrapper">
+  <div class="tabs">
+    <button class="tab-button active" data-target="plot-men-2">Hommes</button>
+    <button class="tab-button" data-target="plot-women-2">Femmes</button>
   </div>
-  <div id="plot-women" class="plot-container">
-    <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
+
+  <div class="tab-content">
+    <div id="plot-men-2" class="plot-container active">
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre2000.html" class="iframe-plot"></iframe>
+    </div>
+    <div id="plot-women-2" class="plot-container">
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre2000.html" class="iframe-plot"></iframe>
+    </div>
   </div>
 </div>
+
 
 TESTTT 2 CAROUSEL! bis oklm
 

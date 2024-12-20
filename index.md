@@ -29,6 +29,7 @@ Je suis un andive
     <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" width="100%" height="900" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
+{% raw %}
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const tabButtons = document.querySelectorAll(".tab-button");
@@ -45,8 +46,8 @@ Je suis un andive
     });
   });
 </script>
+{% endraw %}
 
-<!-- pages/plots.html -->
 <div class="tabs">
   <button class="tab-button active" data-target="plot-men">Hommes</button>
   <button class="tab-button" data-target="plot-women">Femmes</button>

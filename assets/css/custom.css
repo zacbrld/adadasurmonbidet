@@ -38,3 +38,16 @@
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
 }
+
+
+
+
+.carousel-inner img {
+  max-height: 400px; /* Réduisez la hauteur maximale des images */
+  object-fit: cover; /* Ajustez les images pour éviter les déformations */
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Ajoutez un fond semi-transparent aux légendes */
+  padding: 10px;
+}

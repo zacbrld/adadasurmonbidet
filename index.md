@@ -11,14 +11,6 @@ How about a yummy crepe?
 
 ![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg)
 
-
-
----
-layout: home
-title: DISCOVER CHARACTERS' FEATURES BASED ON FIRST NAME
-cover-img: /assets/img/IMG_title.jpg
----
-
 ## INTRODUCTION
 
 When Tarantino makes his films, you might imagine that he starts with the most obvious choices: the genre of the film, the plot that will unfold, or the scenes that will surprise us. But among these big decisions, there's another, more subtle, but just as crucial: choosing the characters' first names. Bill, Rick, Django... how does he make his choice? Is it really a matter of chance, or does each name conceal a clue to the character's identity?  

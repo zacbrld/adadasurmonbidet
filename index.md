@@ -67,7 +67,7 @@ TESTTT 2 CAROUSEL! bis
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/img/avatar-icon.jpg" class="d-block w-100" alt="Second slide">
+      <img src="assets/img/404-southpark.jpg" class="d-block w-100" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second Slide</h5>
         <p>Description of the second slide.</p>

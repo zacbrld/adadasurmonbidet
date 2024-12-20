@@ -47,7 +47,7 @@ GANG confiture
   </div>
 </div>
 
-TESTTT 2 CAROUSEL! bis
+TESTTT 2 CAROUSEL! bis oklm
 
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <!-- Indicateurs -->

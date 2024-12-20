@@ -60,10 +60,10 @@ TESSST DOUBLETTE
 
   <div class="tab-content">
     <div id="plot-men-2" class="plot-container active">
-      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre2000.html" class="iframe-plot"></iframe>
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
     </div>
     <div id="plot-women-2" class="plot-container">
-      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre2000.html" class="iframe-plot"></iframe>
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
     </div>
   </div>
 </div>

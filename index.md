@@ -35,9 +35,9 @@ GANG confiture
   <button class="tab-button" data-target="plot-women">Femmes</button>
 </div>
 
-Test gif
+Test gif bis bis 
 
-![Django](assets/images/django.webp)
+![Django](assets/images/quentin-tarantino-peace.gif)
 
 
 

@@ -26,6 +26,10 @@ Preview: Let's start with some interesting facts about the most common first nam
 
 Je suis un andive youhou
 GANG confiture
+Test gif bis bis x3
+
+![Django](assets/img/quentin-tarantino-peace.gif)
+
 <div style="box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); margin-top: 20px;">
     <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" width="100%" height="900" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
@@ -34,13 +38,6 @@ GANG confiture
   <button class="tab-button active" data-target="plot-men">Hommes</button>
   <button class="tab-button" data-target="plot-women">Femmes</button>
 </div>
-
-Test gif bis bis 
-
-![Django](assets/img/quentin-tarantino-peace.gif)
-
-
-
 
 <div class="tab-content">
   <div id="plot-men" class="plot-container active">

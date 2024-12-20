@@ -47,7 +47,7 @@ GANG confiture
   </div>
 </div>
 
-TESTTT 2 CAROUSEL!
+TESTTT 2 CAROUSEL! bis
 
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <!-- Indicateurs -->
@@ -60,21 +60,21 @@ TESTTT 2 CAROUSEL!
   <!-- Slides -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/images/crepe.jpg" class="d-block w-100" alt="First slide">
+      <img src="assets/img/crepe.jpg" class="d-block w-100" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
         <h5>First Slide</h5>
         <p>Description of the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/crepe.jpg" class="d-block w-100" alt="Second slide">
+      <img src="assets/img/avatar-icon.jpg" class="d-block w-100" alt="Second slide">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second Slide</h5>
         <p>Description of the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/crepe.jpg" class="d-block w-100" alt="Third slide">
+      <img src="assets/img/crepe.jpg" class="d-block w-100" alt="Third slide">
       <div class="carousel-caption d-none d-md-block">
         <h5>Third Slide</h5>
         <p>Description of the third slide.</p>

@@ -41,32 +41,32 @@ TESSST DOUBLETTE bis
     <button class="tab-button active" data-target="plot-men-1">Hommes</button>
     <button class="tab-button" data-target="plot-women-1">Femmes</button>
   </div>
-
   <div class="tab-content">
-    <div id="plot-men-1" class="plot-container active">
-      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
+    <div id="plot-men-1" class="plot-container" style="opacity: 1;">
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000_men.html" class="iframe-plot"></iframe>
     </div>
-    <div id="plot-women-1" class="plot-container">
-      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
+    <div id="plot-women-1" class="plot-container" style="opacity: 0.4;">
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000_women.html" class="iframe-plot"></iframe>
     </div>
   </div>
 </div>
+
 
 <div class="tab-wrapper">
   <div class="tabs">
     <button class="tab-button active" data-target="plot-men-2">Hommes</button>
     <button class="tab-button" data-target="plot-women-2">Femmes</button>
   </div>
-
   <div class="tab-content">
-    <div id="plot-men-2" class="plot-container active">
-      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
+    <div id="plot-men-2" class="plot-container" style="opacity: 1;">
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000_men.html" class="iframe-plot"></iframe>
     </div>
-    <div id="plot-women-2" class="plot-container">
-      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
+    <div id="plot-women-2" class="plot-container" style="opacity: 0.4;">
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000_women.html" class="iframe-plot"></iframe>
     </div>
   </div>
 </div>
+
 
 
 TESTTT 2 CAROUSEL! bis oklm

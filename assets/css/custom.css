@@ -23,8 +23,11 @@
 
 /* Styles pour les conteneurs des plots */
 .plot-container {
-  display: none;
+  transition: opacity 0.3s ease; /* Effet de transition pour un changement fluide */
 }
+/* .plot-container {
+  display: none;
+} */
 
 .plot-container.active {
   display: block;
@@ -51,3 +54,4 @@
   background: rgba(0, 0, 0, 0.5); /* Ajoutez un fond semi-transparent aux légendes */
   padding: 10px;
 }
+

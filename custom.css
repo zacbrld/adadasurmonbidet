@@ -1,0 +1,9 @@
+/* assets/css/custom.css */
+.card {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #444;
+  border-radius: 50%;
+}

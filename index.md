@@ -29,3 +29,17 @@ TESSST
     <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" width="100%" height="900" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
+<!-- pages/plots.html -->
+<div class="tabs">
+  <button class="tab-button active" data-target="plot-men">Hommes</button>
+  <button class="tab-button" data-target="plot-women">Femmes</button>
+</div>
+
+<div class="tab-content">
+  <div id="plot-men" class="plot-container active">
+    <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
+  </div>
+  <div id="plot-women" class="plot-container">
+    <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
+  </div>
+</div>

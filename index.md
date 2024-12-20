@@ -35,6 +35,10 @@ GANG confiture
   <button class="tab-button" data-target="plot-women">Femmes</button>
 </div>
 
+Test gif
+
+![Django](assets/images/django.webp)
+
 
 
 

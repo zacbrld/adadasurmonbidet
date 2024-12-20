@@ -37,7 +37,7 @@ GANG confiture
 
 Test gif bis bis 
 
-![Django](assets/images/quentin-tarantino-peace.gif)
+![Django](assets/img/quentin-tarantino-peace.gif)
 
 
 

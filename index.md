@@ -36,6 +36,7 @@ Test gif bis bis x3
 
 TESSST DOUBLETTE bis
 
+<!-- Premier groupe : Graphes Hommes/Femmes 1 -->
 <div class="tab-wrapper">
   <div class="tabs">
     <button class="tab-button active" data-target="plot-men-1">Hommes</button>
@@ -51,7 +52,7 @@ TESSST DOUBLETTE bis
   </div>
 </div>
 
-
+<!-- Deuxième groupe : Graphes Hommes/Femmes 2 -->
 <div class="tab-wrapper">
   <div class="tabs">
     <button class="tab-button active" data-target="plot-men-2">Hommes</button>
@@ -66,6 +67,7 @@ TESSST DOUBLETTE bis
     </div>
   </div>
 </div>
+
 
 
 

@@ -1,25 +1,23 @@
 document.querySelectorAll('.tab-wrapper').forEach(wrapper => {
-  const buttons = wrapper.querySelectorAll('.tab-button');
-  const tabs = wrapper.querySelectorAll('.plot-container');
+  const buttons = wrapper.querySelectorAll('.tab-button'); // Boutons de ce groupe
+  const tabs = wrapper.querySelectorAll('.plot-container'); // Contenus de ce groupe
 
   buttons.forEach(button => {
     button.addEventListener('click', () => {
-      // Désactiver tous les boutons
+      // Retirer l'état actif de tous les boutons et contenus
       buttons.forEach(btn => btn.classList.remove('active'));
-
-      // Ajuster l'opacité des contenus
       tabs.forEach(tab => {
-        if (tab.id === button.dataset.target) {
-          tab.style.opacity = 1; // Mettre en avant le graphique actif
-          tab.style.pointerEvents = "auto"; // Permettre l'interaction
-        } else {
-          tab.style.opacity = 0.4; // Atténuer le graphique inactif
-          tab.style.pointerEvents = "none"; // Désactiver l'interaction
-        }
+        tab.style.opacity = 0.4; // Réduire l'opacité
+        tab.style.pointerEvents = "none"; // Désactiver l'interaction
       });
 
-      // Activer le bouton cliqué
+      // Ajouter l'état actif au bouton cliqué
       button.classList.add('active');
+
+      // Activer le contenu correspondant
+      const target = wrapper.querySelector(`#${button.dataset.target}`);
+      target.style.opacity = 1; // Rendre visible
+      target.style.pointerEvents = "auto"; // Activer l'interaction
     });
   });
 });

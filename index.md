@@ -34,7 +34,7 @@ Test gif bis bis x3
     <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" width="100%" height="900" frameborder="0" style="border-radius: 10px; margin-top: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);"></iframe>
 </div>
 
-TESSST DOUBLETTE 
+TESSST DOUBLETTE bis
 
 <div class="tab-wrapper">
   <div class="tabs">

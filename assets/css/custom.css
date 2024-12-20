@@ -1,4 +1,4 @@
-/* assets/css/custom.css */
+/* Styles pour les onglets */
 .tabs {
   display: flex;
   justify-content: start;
@@ -21,6 +21,7 @@
   border-color: #4472c4;
 }
 
+/* Styles pour les conteneurs des plots */
 .plot-container {
   display: none;
 }

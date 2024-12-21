@@ -44,10 +44,10 @@ TESSST DOUBLETTE tryy
   </div>
   <div class="tab-content">
     <div id="plot-men-1" class="plot-container" style="opacity: 1;">
-      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000_men.html" class="iframe-plot"></iframe>
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
     </div>
     <div id="plot-women-1" class="plot-container" style="opacity: 0.4;">
-      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000_women.html" class="iframe-plot"></iframe>
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
     </div>
   </div>
 </div>
@@ -60,10 +60,10 @@ TESSST DOUBLETTE tryy
   </div>
   <div class="tab-content">
     <div id="plot-men-2" class="plot-container" style="opacity: 1;">
-      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000_men.html" class="iframe-plot"></iframe>
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
     </div>
     <div id="plot-women-2" class="plot-container" style="opacity: 0.4;">
-      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000_women.html" class="iframe-plot"></iframe>
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
     </div>
   </div>
 </div>
@@ -76,10 +76,10 @@ TESSST DOUBLETTE tryy
   </div>
   <div class="tab-content">
     <div id="plot-men-3" class="plot-container" style="opacity: 1;">
-      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000_men.html" class="iframe-plot"></iframe>
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
     </div>
     <div id="plot-women-3" class="plot-container" style="opacity: 0.4;">
-      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000_women.html" class="iframe-plot"></iframe>
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000.html" class="iframe-plot"></iframe>
     </div>
   </div>
 </div>

@@ -36,7 +36,7 @@ Test gif bis bis x3
 
 TESSST DOUBLETTE bis heyy
 
-<!-- Premier groupe : Graphes Hommes/Femmes 1 -->
+<!-- Premier groupe -->
 <div class="tab-wrapper">
   <div class="tabs">
     <button class="tab-button active" data-target="plot-men-1">Hommes</button>
@@ -52,7 +52,7 @@ TESSST DOUBLETTE bis heyy
   </div>
 </div>
 
-<!-- Deuxième groupe : Graphes Hommes/Femmes 2 -->
+<!-- Deuxième groupe -->
 <div class="tab-wrapper">
   <div class="tabs">
     <button class="tab-button active" data-target="plot-men-2">Hommes</button>
@@ -63,6 +63,22 @@ TESSST DOUBLETTE bis heyy
       <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000_men.html" class="iframe-plot"></iframe>
     </div>
     <div id="plot-women-2" class="plot-container" style="opacity: 0.4;">
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000_women.html" class="iframe-plot"></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- Troisième groupe -->
+<div class="tab-wrapper">
+  <div class="tabs">
+    <button class="tab-button active" data-target="plot-men-3">Hommes</button>
+    <button class="tab-button" data-target="plot-women-3">Femmes</button>
+  </div>
+  <div class="tab-content">
+    <div id="plot-men-3" class="plot-container" style="opacity: 1;">
+      <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000_men.html" class="iframe-plot"></iframe>
+    </div>
+    <div id="plot-women-3" class="plot-container" style="opacity: 0.4;">
       <iframe src="{{ site.baseurl }}/assets/plots/sunburst_genre1000_women.html" class="iframe-plot"></iframe>
     </div>
   </div>

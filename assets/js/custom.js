@@ -1,17 +1,17 @@
 document.querySelectorAll('.tab-wrapper').forEach(wrapper => {
-  const buttons = wrapper.querySelectorAll('.tab-button'); // Boutons de ce groupe
-  const tabs = wrapper.querySelectorAll('.plot-container'); // Contenus de ce groupe
+  const buttons = wrapper.querySelectorAll('.tab-button'); // Boutons dans ce groupe
+  const tabs = wrapper.querySelectorAll('.plot-container'); // Contenus dans ce groupe
 
   buttons.forEach(button => {
     button.addEventListener('click', () => {
-      // Retirer l'état actif de tous les boutons et contenus
+      // Désactiver tous les boutons et contenus de ce groupe
       buttons.forEach(btn => btn.classList.remove('active'));
       tabs.forEach(tab => {
         tab.style.opacity = 0.4; // Réduire l'opacité
         tab.style.pointerEvents = "none"; // Désactiver l'interaction
       });
 
-      // Ajouter l'état actif au bouton cliqué
+      // Activer le bouton cliqué
       button.classList.add('active');
 
       // Activer le contenu correspondant
